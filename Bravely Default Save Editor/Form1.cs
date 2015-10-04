@@ -37,7 +37,7 @@ namespace Bravely_Default_Save_Editor {
                     outStream.Seek(villageBuildingByte[i], SeekOrigin.Begin);
                     outStream.WriteByte(newVillageBuildingLevel[i]);
                     outStream.Close();
-                    saveFileVillagerCount[i] = newVillageBuildingLevel[i];
+                    saveFileVillageBuildingLevel[i] = newVillageBuildingLevel[i];
                 }
             }
             if (errorProvider1.GetError(NewVillagerCountInput) != null) {
