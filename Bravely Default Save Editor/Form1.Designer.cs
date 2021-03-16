@@ -145,6 +145,7 @@
             this.VillageBuildingNewLevel1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VillageBuildingNewLevel1.FormattingEnabled = true;
             this.VillageBuildingNewLevel1.Items.AddRange(new object[] {
+            "0",
             "1",
             "2",
             "3",
@@ -168,6 +169,7 @@
             this.VillageBuildingNewLevel2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VillageBuildingNewLevel2.FormattingEnabled = true;
             this.VillageBuildingNewLevel2.Items.AddRange(new object[] {
+            "0",
             "1",
             "2",
             "3",
@@ -191,6 +193,7 @@
             this.VillageBuildingNewLevel3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VillageBuildingNewLevel3.FormattingEnabled = true;
             this.VillageBuildingNewLevel3.Items.AddRange(new object[] {
+            "0",
             "1",
             "2",
             "3",
@@ -214,6 +217,7 @@
             this.VillageBuildingNewLevel4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VillageBuildingNewLevel4.FormattingEnabled = true;
             this.VillageBuildingNewLevel4.Items.AddRange(new object[] {
+            "0",
             "1",
             "2",
             "3",
@@ -237,6 +241,7 @@
             this.VillageBuildingNewLevel5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VillageBuildingNewLevel5.FormattingEnabled = true;
             this.VillageBuildingNewLevel5.Items.AddRange(new object[] {
+            "0",
             "1",
             "2",
             "3",
@@ -260,6 +265,7 @@
             this.VillageBuildingNewLevel6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VillageBuildingNewLevel6.FormattingEnabled = true;
             this.VillageBuildingNewLevel6.Items.AddRange(new object[] {
+            "0",
             "1",
             "2",
             "3",
@@ -283,6 +289,7 @@
             this.VillageBuildingNewLevel7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VillageBuildingNewLevel7.FormattingEnabled = true;
             this.VillageBuildingNewLevel7.Items.AddRange(new object[] {
+            "0",
             "1",
             "2",
             "3",
@@ -306,6 +313,7 @@
             this.VillageBuildingNewLevel8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VillageBuildingNewLevel8.FormattingEnabled = true;
             this.VillageBuildingNewLevel8.Items.AddRange(new object[] {
+            "0",
             "1",
             "2",
             "3",
@@ -329,6 +337,7 @@
             this.VillageBuildingNewLevel9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VillageBuildingNewLevel9.FormattingEnabled = true;
             this.VillageBuildingNewLevel9.Items.AddRange(new object[] {
+            "0",
             "1",
             "2",
             "3",
@@ -352,6 +361,7 @@
             this.VillageBuildingNewLevel10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VillageBuildingNewLevel10.FormattingEnabled = true;
             this.VillageBuildingNewLevel10.Items.AddRange(new object[] {
+            "0",
             "1",
             "2",
             "3",
@@ -375,6 +385,7 @@
             this.VillageBuildingNewLevel11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VillageBuildingNewLevel11.FormattingEnabled = true;
             this.VillageBuildingNewLevel11.Items.AddRange(new object[] {
+            "0",
             "1",
             "2",
             "3",
