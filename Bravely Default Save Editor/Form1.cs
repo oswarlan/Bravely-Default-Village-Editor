@@ -105,40 +105,40 @@ namespace Bravely_Default_Save_Editor {
         }
 
         private void VillageBuildingNewLevel1_SelectedIndexChanged(object sender, EventArgs e) {
-            if (VillageBuildingNewLevel1.SelectedIndex > saveFileVillageBuildingLevel[0])
-                newVillageBuildingLevel[0] -= (byte)(VillageBuildingNewLevel1.SelectedIndex - saveFileVillageBuildingLevel[0] % 0x10 + 1);
+            if (VillageBuildingNewLevel1.SelectedIndex >= saveFileVillageBuildingLevel[0])
+                newVillageBuildingLevel[0] -= (byte)(VillageBuildingNewLevel1.SelectedIndex - saveFileVillageBuildingLevel[0] % 0x10);
             else
-                newVillageBuildingLevel[0] += (byte)(VillageBuildingNewLevel1.SelectedIndex - saveFileVillageBuildingLevel[0] % 0x10 + 1);
+                newVillageBuildingLevel[0] += (byte)(VillageBuildingNewLevel1.SelectedIndex - saveFileVillageBuildingLevel[0] % 0x10);
         }
         private void VillageBuildingNewLevel2_SelectedIndexChanged(object sender, EventArgs e) {
-            newVillageBuildingLevel[1] = (byte)(VillageBuildingNewLevel2.SelectedIndex + 1);
+            newVillageBuildingLevel[1] = (byte)(VillageBuildingNewLevel2.SelectedIndex);
         }
         private void VillageBuildingNewLevel3_SelectedIndexChanged(object sender, EventArgs e) {
-            newVillageBuildingLevel[2] = (byte)(VillageBuildingNewLevel3.SelectedIndex + 1);
+            newVillageBuildingLevel[2] = (byte)(VillageBuildingNewLevel3.SelectedIndex);
         }
         private void VillageBuildingNewLevel4_SelectedIndexChanged(object sender, EventArgs e) {
-            newVillageBuildingLevel[3] = (byte)(VillageBuildingNewLevel4.SelectedIndex + 1);
+            newVillageBuildingLevel[3] = (byte)(VillageBuildingNewLevel4.SelectedIndex);
         }
         private void VillageBuildingNewLevel5_SelectedIndexChanged(object sender, EventArgs e) {
-            newVillageBuildingLevel[4] = (byte)(VillageBuildingNewLevel5.SelectedIndex + 1);
+            newVillageBuildingLevel[4] = (byte)(VillageBuildingNewLevel5.SelectedIndex);
         }
         private void VillageBuildingNewLevel6_SelectedIndexChanged(object sender, EventArgs e) {
-            newVillageBuildingLevel[5] = (byte)(VillageBuildingNewLevel6.SelectedIndex + 1);
+            newVillageBuildingLevel[5] = (byte)(VillageBuildingNewLevel6.SelectedIndex );
         }
         private void VillageBuildingNewLevel7_SelectedIndexChanged(object sender, EventArgs e) {
-            newVillageBuildingLevel[6] = (byte)(VillageBuildingNewLevel7.SelectedIndex + 1);
+            newVillageBuildingLevel[6] = (byte)(VillageBuildingNewLevel7.SelectedIndex);
         }
         private void VillageBuildingNewLevel8_SelectedIndexChanged(object sender, EventArgs e) {
-            newVillageBuildingLevel[7] = (byte)(VillageBuildingNewLevel8.SelectedIndex + 1);
+            newVillageBuildingLevel[7] = (byte)(VillageBuildingNewLevel8.SelectedIndex);
         }
         private void VillageBuildingNewLevel9_SelectedIndexChanged(object sender, EventArgs e) {
-            newVillageBuildingLevel[8] = (byte)(VillageBuildingNewLevel9.SelectedIndex + 1);
+            newVillageBuildingLevel[8] = (byte)(VillageBuildingNewLevel9.SelectedIndex);
         }
         private void VillageBuildingNewLevel10_SelectedIndexChanged(object sender, EventArgs e) {
-            newVillageBuildingLevel[9] = (byte)(VillageBuildingNewLevel10.SelectedIndex + 1);
+            newVillageBuildingLevel[9] = (byte)(VillageBuildingNewLevel10.SelectedIndex);
         }
         private void VillageBuildingNewLevel11_SelectedIndexChanged(object sender, EventArgs e) {
-            newVillageBuildingLevel[10] = (byte)(VillageBuildingNewLevel11.SelectedIndex + 1);
+            newVillageBuildingLevel[10] = (byte)(VillageBuildingNewLevel11.SelectedIndex);
         }
         public int ConvertPopulationToDec() {
             return saveFileVillagerCount[0] + ((saveFileVillagerCount[1] / 0x10) * 128);
